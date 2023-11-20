@@ -13,13 +13,13 @@ public class TwoSum {
 
             int ostatok = target - nums[i];
 
-            if(digits.containsKey(ostatok)) {
-                return new int[] { digits.get(ostatok), i};
+            if (digits.containsKey(ostatok)) {
+                return new int[]{digits.get(ostatok), i};
             }
 
             digits.put(nums[i], i);
         }
-        return null;
+        return new int[]{};
     }
 
 }

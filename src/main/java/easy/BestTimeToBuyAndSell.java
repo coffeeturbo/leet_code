@@ -7,8 +7,8 @@ public class BestTimeToBuyAndSell {
         for (int i = 1; i < prices.length; i++) {
 
             var sel = prices[i];
-            if(sel > prices[buyDay]) {
-                profit = Math.max(profit, sel-prices[buyDay]);
+            if (sel > prices[buyDay]) {
+                profit = Math.max(profit, sel - prices[buyDay]);
 
             } else {
                 buyDay = i;

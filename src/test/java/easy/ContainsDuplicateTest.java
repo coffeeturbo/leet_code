@@ -16,7 +16,7 @@ class ContainsDuplicateTest {
     @Test
     void containsDuplicate() {
 
-        assertThat(containsDuplicate.containsDuplicate(new int[]{1,2,3,1}))
+        assertThat(containsDuplicate.containsDuplicate(new int[]{1, 2, 3, 1}))
                 .isTrue();
 
     }
@@ -24,7 +24,7 @@ class ContainsDuplicateTest {
     @Test
     void containsDuplicateFalse() {
 
-        assertThat(containsDuplicate.containsDuplicate(new int[]{1,2,3,4}))
+        assertThat(containsDuplicate.containsDuplicate(new int[]{1, 2, 3, 4}))
                 .isFalse();
 
     }
@@ -32,7 +32,7 @@ class ContainsDuplicateTest {
     @Test
     void containsDuplicateTrue() {
 
-        assertThat(containsDuplicate.containsDuplicate(new int[]{1,1,1,3,3,4,3,2,4,2}))
+        assertThat(containsDuplicate.containsDuplicate(new int[]{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}))
                 .isTrue();
 
     }

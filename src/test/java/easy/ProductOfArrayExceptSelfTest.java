@@ -26,7 +26,7 @@ class ProductOfArrayExceptSelfTest {
     @Test
     void shouldReturnProductLeft() {
 
-        var actual = productOfArrayExceptSelf.productLeft(new int[]{4,5,1,8,2});
+        var actual = productOfArrayExceptSelf.productLeft(new int[]{4, 5, 1, 8, 2});
         assertThat(actual)
                 .isEqualTo(new int[]{1, 4, 20, 20, 160});
     }
@@ -34,7 +34,7 @@ class ProductOfArrayExceptSelfTest {
     @Test
     void shouldReturnProductRight() {
 
-        var actual = productOfArrayExceptSelf.productRight(new int[]{4,5,1,8,2});
+        var actual = productOfArrayExceptSelf.productRight(new int[]{4, 5, 1, 8, 2});
         assertThat(actual)
                 .isEqualTo(new int[]{80, 16, 16, 2, 1});
     }

@@ -16,7 +16,7 @@ class MaximumSubarrayTest {
 
     @Test
     void shouldFindMaxSubArray() {
-        assertThat(maximumSubarray.maxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}))
+        assertThat(maximumSubarray.maxSubArray(new int[]{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
                 .isEqualTo(6);
     }
 
@@ -28,7 +28,7 @@ class MaximumSubarrayTest {
 
     @Test
     void shouldFindMaxSubArrayThird() {
-        assertThat(maximumSubarray.maxSubArray(new int[]{5,4,-1,7,8}))
+        assertThat(maximumSubarray.maxSubArray(new int[]{5, 4, -1, 7, 8}))
                 .isEqualTo(23);
     }
 }

@@ -35,7 +35,7 @@ public class ProductOfArrayExceptSelf {
 
         int size = nums.length;
 
-        int rsl[] = new int[size];
+        int[] rsl = new int[size];
         rsl[size - 1] = 1;
         for (int i = size - 2; i >= 0; i--) {
             rsl[i] = rsl[i + 1] * nums[i + 1];
