@@ -1,4 +1,4 @@
-package easy;
+package com.leetcode.easy;
 
 public class BestTimeToBuyAndSell {
     public int maxProfit(int[] prices) {

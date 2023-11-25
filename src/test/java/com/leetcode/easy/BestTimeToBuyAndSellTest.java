@@ -1,4 +1,4 @@
-package easy;
+package com.leetcode.easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,9 +1,9 @@
-package easy;
+package com.leetcode.easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class ContainsDuplicateTest {
     private ContainsDuplicate containsDuplicate;

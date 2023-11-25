@@ -1,7 +1,4 @@
-package easy;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.leetcode.easy;
 
 public class MaximumSubarray {
     public int maxSubArray(int[] nums) {

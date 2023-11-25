@@ -1,4 +1,4 @@
-package easy;
+package com.leetcode.easy;
 
 public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
